@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+      font-size: 36px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .cart {
+      background: linear-gradient(135deg, #b1d4e0, #f4f4f4);
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .cart-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-left: 50px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .cart-item img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      margin-right: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .cart-item-name {
+      font-weight: bold;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .cart-total {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: 50px;
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .cart-total-line {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .cart-total-text {
+      font-weight: bold;
+      margin-right: 10px;
+      color: #333;
+    }
+
+    .confirm-link {
+      text-align: right;
+      margin-top: 40px;
+    }
+
+    .confirm-link a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .confirm-link a:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Shopping Cart</h1>
+
+  <div class="cart">
+    <div class="cart-item">
+      <img src="helmet.jpg" alt="Product Image">
+      <div>
+        <span class="cart-item-name">Helmet</span>
+        <p>Protect your head with this high-quality helmet.</p>
+        <p>Price: $29.99</p>
+      </div>
+    </div>
+
+    <div class="cart-total-line"></div>
+
+    <div class="cart-total">
+      <span class="cart-total-text">Total:</span>
+      <span>$29.99</span>
+    </div>
+
+    <div class="confirm-link">
+      <a href="update 2.html">Confirm</a>
+    </div>
+  </div>
+
+</body>
+</html>
